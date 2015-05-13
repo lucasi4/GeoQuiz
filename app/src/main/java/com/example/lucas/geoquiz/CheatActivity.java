@@ -28,6 +28,7 @@ public class CheatActivity extends ActionBarActivity {
 
         mShowAnswer = (Button)findViewById(R.id.showAnswerButton);
         mAnswerTextView = (TextView)findViewById(R.id.answerTextView);
+
         setAnswerShownResult(false);
 
         mShowAnswer.setOnClickListener(new View.OnClickListener() {
